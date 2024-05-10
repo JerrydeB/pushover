@@ -1,0 +1,17 @@
+[project]
+name = "pushover-jb"
+version = "1.0.0"
+authors = [
+  { name="Jerry de Boer", email="info@hybridsoftworks.com" },
+]
+description = "A simple Pushover messages API wrapper."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/JerrydeB/pushover"
+Issues = "https://github.com/JerrydeB/pushover/issues"
