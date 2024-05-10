@@ -1,5 +1,5 @@
 [project]
-name = "pushover-jb"
+name = "pushover_jb"
 version = "1.0.0"
 authors = [
   { name="Jerry de Boer", email="info@hybridsoftworks.com" },

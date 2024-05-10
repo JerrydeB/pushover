@@ -5,7 +5,7 @@
 1. Install the package with pip
 
 ```
-pip install pushover-jb
+pip install pushover_jb
 ```
 
 2. Create a [Pushover](https://pushover.net) account.
@@ -20,7 +20,7 @@ PUSHOVER_API_TOKEN=xxxxxxx
 ## Usage
 
 ```
-import pushover-jb as po
+import pushover_jb as po
 
 po.send(
     message="This is the message", 
