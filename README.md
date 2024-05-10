@@ -25,7 +25,7 @@ from pushover_jb import message as pom
 pom.send(
     message="This is the message", 
     title="Title", 
-    priority=po.Priority.P2
+    priority=pom.Priority.P2
 )
 ```
 
