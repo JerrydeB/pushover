@@ -1,4 +1,4 @@
-"""Module to interact with the Pushover API."""
+"""Module to interact with the Pushover Message API."""
 
 from enum import Enum
 import os
