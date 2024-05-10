@@ -5,7 +5,7 @@
 1. Install the package with pip
 
 ```
-pip install pushover_jb
+pip install pushover-jb
 ```
 
 2. Create a [Pushover](https://pushover.net) account.
