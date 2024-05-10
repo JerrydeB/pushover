@@ -33,7 +33,9 @@ po.send(
 
 send: sends a push notification
 
-> Arguments:
-> message (str): The message to be sent.
-> title (str, optional): The title of the message. Defaults to an empty string.
-> priority (Priority, optional): The priority of the message. Defaults to Priority.P3.
+Arguments:
+```
+message (str): The message to be sent.
+title (str, optional): The title of the message. Defaults to an empty string.
+priority (Priority, optional): The priority of the message. Defaults to Priority.P3.
+```
