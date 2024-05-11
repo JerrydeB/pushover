@@ -1,7 +1,7 @@
 """Module to interact with the Pushover Message API."""
 
-from enum import Enum
 import os
+from enum import Enum
 import requests
 from dotenv import load_dotenv
 
@@ -45,7 +45,7 @@ def send(message: str, title: str = "", priority: Priority = Priority.P2):
             "message": message,
             "priority": priority.value
         }
-        requests.post(url, data=form_data)
+        requests.post(url, data=form_data, timeout=30)
 
-    except Exception as e:
+    except requests.exceptions.RequestException:
         pass
